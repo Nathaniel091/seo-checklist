@@ -1,0 +1,32 @@
+body {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	/*background: rgb(211, 172, 139, 1) url("images/background.jpg") no-repeat fixed center;*/
+	background-color: rgb(211, 172, 139, 1);
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100vw 100vh;
+}
+#checkList-Cont{
+	text-align: center;
+	margin-top: 50px;
+}
+#checkList-Cont > h1 {
+	text-decoration: underline;
+	letter-spacing: 5px;
+}
+ol{
+	width: 320px;
+	text-align: left;
+
+	margin: auto;
+	letter-spacing: 2px;
+	line-height: 40px;
+}
+#citation {
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	margin-top: 200px;
+}
