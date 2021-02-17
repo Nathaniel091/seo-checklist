@@ -2,11 +2,13 @@ body {
 	color: white;
 	font-family: 'Lato', sans-serif;
 	/*background: rgb(211, 172, 139, 1) url("images/background.jpg") no-repeat fixed center;*/
-	background-color: rgb(211, 172, 139, 1);
+	background-color: brown;
 	background-image: url("images/background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 100vw 100vh;
+	/*background-size: 100vw 100vh;*/
+	/*background-position: center;*/
+	background-size: cover;
 }
 #checkList-Cont{
 	text-align: center;
