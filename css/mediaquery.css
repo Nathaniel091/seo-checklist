@@ -1,11 +1,13 @@
 @media screen and (max-width: 550px) {
+	#listContainer {
+		width: 80%;
+	}
 	footer {
 		padding-right: 20px; 
 		padding-bottom: 20px; 
 	}
 	footer section > #copyrightAndCredit {
 		display: flex;
-		/*background: green;*/
 	}
 	/*copyright*/
 	footer section  #copyrightAndCredit > #copyright {
@@ -17,9 +19,12 @@
 	}
 }
 
-@media only screen and (max-width: 400px) {
-	footer {
-		/*position: fixed;*/
-		/*bottom: 0;*/
+@media only screen and (max-width: 370px) {
+	main section > h1 {
+		font-size: 1.5em;
 	}
+	footer {
+		position: relative;
+	}
+
 }

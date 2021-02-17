@@ -3,18 +3,19 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
 body {
-	color: white;
 	font-family: 'Lato', sans-serif;
-	/*background: rgb(211, 172, 139, 1) url("images/background.jpg") no-repeat fixed center;*/
 	background-color: brown;
-	/*background-image: url("images/background.jpg");*/
+	background-image: url("images/background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
+	color: white;
 }
-/*main*/
+
+/*===== main*/
 main{
 	text-align: center;
 	padding-top: 30px;
@@ -33,14 +34,15 @@ main section > h1 {
 	letter-spacing: 2px;
 	line-height: 40px;
 }
-/*footer*/
+
+
+/*===== footer*/
 footer {
-	/*position: absolute;*/
 	position: fixed;
 	bottom: 0;
 	width: 100%;
 	padding: 20px 50px 40px 50px;
-	/*background: green;*/
+	margin-top: 50px;
 }
 footer section > #copyrightAndCredit {
 	display: flex;
