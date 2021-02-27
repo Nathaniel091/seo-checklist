@@ -7,11 +7,11 @@
 body {
 	font-family: 'Lato', sans-serif;
 	background-color: brown;
-	/*background-image: url("images/background.jpg");
+	background-image: url("../images/background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
-	background-size: cover;*/
+	background-size: cover;
 	color: white;
 }
 a{
