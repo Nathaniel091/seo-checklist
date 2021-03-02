@@ -6,11 +6,15 @@
 
 body {
 	font-family: 'Lato', sans-serif;
+	z-index: -1000;
 	background-color: black;
 	background-image: url("../images/background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	color: white;
 }
