@@ -9,7 +9,7 @@
 	footer section>#copyrightAndCredit {
 		display: flex
 	}
-	footer section #copyrightAndCredit>#copyright {
+	footer section #copyrightAndCredit > #copyright {
 		display: none
 	}
 	footer section #copyrightAndCredit>#citation {
